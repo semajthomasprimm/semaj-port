@@ -1,0 +1,8 @@
+.accordion-item{
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    -ms-transition: height 1s ease;
+    transition: height 1s ease;
+    overflow: hidden;
+}
