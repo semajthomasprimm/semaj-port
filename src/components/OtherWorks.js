@@ -7,22 +7,14 @@ const OtherWorks = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center py-16">
           <h1 className="text-4xl font-semibold">Other Projects</h1>
-        </div>
+        </div>{/* 
         <SingleProject 
             title="sheet2Timetable" 
             date="January 2021" 
             techUsed="Google Apps Script, Google Calendar API" 
             description="A simple script that converts course details from a Google Sheet to a calendar." 
             repoLink="http://github.com/semajthomasprimm"
-        />
-        <SingleProject 
-          title="Pearly - UI Library" 
-          date="September 2020-Current" 
-          techUsed="ReactJS, TailwindCSS" 
-          description="Developing a library of UI components built with ReactJS and TailwindCSS" 
-          repoLink="https://github.com/semajthomasprimm/pearly"
-          websiteLink="https://pearlylibrary.herokuapp.com"
-        />
+        /> */}
         <SingleProject 
           title="Regulatory and Affective Dynamics Lab U of T" 
           date="May-August 2019" 

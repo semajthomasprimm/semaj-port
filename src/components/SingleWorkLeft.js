@@ -51,6 +51,7 @@ const SingleWorkLeft = ({projectData}) => {
               <a
                 className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
                 href={projectData.link}
+                target="_blank" rel="noopener noreferrer"
               >
                 View Site
               </a>
@@ -59,6 +60,7 @@ const SingleWorkLeft = ({projectData}) => {
               <a
                 className="my-8 ml-2 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
                 href={projectData.repo}
+                target="_blank" rel="noopener noreferrer"
               >
                 View Repo
               </a>

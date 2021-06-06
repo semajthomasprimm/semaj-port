@@ -1,39 +1,35 @@
 import React from "react";
 import SingleWorkLeft from "./SingleWorkLeft";
 import SingleWorkRight from "./SingleWorkRight";
-import pernTodoImg from "../assets/pern-todo.png";
 import utmImg from "../assets/utm1.png";
-import wardtoImg from "../assets/wardto.png";
 import blackjackImg from "../assets/blackjack.png";
+import cryptodashboard from '../assets/cryptodashboard.png';
+import covid19dashboard from '../assets/covid19dashboard.png';
 
 const projectData1 = {
-  type: "Group Project",
-  title: "WardTO",
+  type: "Personal Project",
+  title: "COVID-19 Dashboard",
   description:
-    "Competed in HackTheNorth in a team of four. A web app that provides information about shelters in Toronto using data from the City of Toronto. Worked on backend of project and hosting it using Firebase Hosting.",
-  featuresCol1: ["Embedded Google Map"],
-  featuresCol2: ["Shelter Listings"],
-  techStack: "HTML, CSS, Javascript, Google Maps API, Firebase",
-  link: "http://wardto.tech",
-  repo: "https://github.com/semajthomasprimm/hackthenorth",
-  previewImg: wardtoImg,
+    "A COVID-19 cases tracker for Canada. Includes charts displaying daily statistics of cases, deaths, tests, and vaccinations for Canada, provinces and territories.",
+  featuresCol1: ["Cumulative and daily counts of cases, deaths, tests, and vaccinations in Canada.",  "Select region-specific data to display in a graph"],
+  featuresCol2: ["Responsive design", "Receives up-to-date data via API"],
+  techStack: "ReactJS, Bootstrap, SWR, react-select, Recharts, react-router Netlify, Git",
+  link: "https://covid19-canada-dashboard.netlify.app/",
+  repo: "https://github.com/semajthomasprimm/covid19-canada-dashboard",
+  previewImg: covid19dashboard,
 };
 
 const projectData2 = {
-  type: "Featured Project",
-  title: "PERN Todo List App",
+  type: "Personal Project",
+  title: "Cryptocurrency Dashboard",
   description:
-    "Developed a todo list web app using the PERN(Postgresql, Express, React, NodeJS) stack. ",
-  featuresCol1: ["Add items", "Edit items", "Delete items"],
-  featuresCol2: [
-    "CRUD features using API routes",
-    "Connected to live database",
-    "Displays all todo items",
-  ],
-  techStack: "ReactJS, Bootstrap 4, Express, PostgreSQL, Heroku, Git",
-  link: "https://pern-todo-primm.herokuapp.com/",
-  repo: "https://github.com/semajthomasprimm/PERN-TODO-heroku",
-  previewImg: pernTodoImg,
+    "A price tracker for top 100 cryptocurrencies based on CoinGecko.",
+  featuresCol1: ["Live price changes", "Currency switching"],
+  featuresCol2: ["Dark and light mode", "Responsive design"],
+  techStack: "ReactJS, Bootstrap, SWR, react-select, local-storage-fallback, Netlify, Git",
+  link: "https://cryptodashboardsprimm.netlify.app/",
+  repo: "https://github.com/semajthomasprimm/crypto-dashboard",
+  previewImg: cryptodashboard,
 };
 
 const projectData3 = {
@@ -42,12 +38,9 @@ const projectData3 = {
   description:
     "I worked with Professor Norman Farb of the Psychology department to migrate the Psychedelic Studies Research Program(PSRP) from an external site into the existing University system.",
   featuresCol1: ["Provides background information about the research facility"],
-  featuresCol2: [
-    "Hosts articles and press releases about the facility and staff",
-  ],
+  featuresCol2: ["Hosts articles and press releases about the facility and staff"],
   techStack: "Drupal, HTML, CSS, Photoshop",
-  link:
-    "https://www.utm.utoronto.ca/psychedelics/welcome-psychedelic-studies-research-program-utm",
+  link: "https://www.utm.utoronto.ca/psychedelics/welcome-psychedelic-studies-research-program-utm",
   previewImg: utmImg,
 };
 

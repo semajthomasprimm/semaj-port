@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="container mx-auto flex flex-row px-10 sm:px-5 py-12">
-        <span className="mt-1 mr-1"><AiOutlineGithub /></span><a href="http://github.com/semajthomasprimm" className="underline hover:text-gray-500 text-lg">github.com/semajthomasprimm</a>
+        <span className="mt-1 mr-1"><AiOutlineGithub /></span><a target="_blank" rel="noopener noreferrer" href="http://github.com/semajthomasprimm" className="underline hover:text-gray-500 text-lg">github.com/semajthomasprimm</a>
       </div>
     </section>
   );

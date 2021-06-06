@@ -22,8 +22,8 @@ const Accordion = ({title, date, techUsed, description, repoLink, websiteLink}) 
                 transition: "max-height 200ms ease-in-out",
             }}>
               <p className="text-md my-4">{description}</p>
-              {repoLink && <a className="my-8 mr-1 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded" href={repoLink}>GitHub Repo</a>}
-              {websiteLink && <a className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded" href={websiteLink}>Website</a>}
+              {repoLink && <a className="my-8 mr-1 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded" href={repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
+              {websiteLink && <a className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded" href={websiteLink} target="_blank" rel="noopener noreferrer">Website</a>}
           </div>}
         </div>
     )
